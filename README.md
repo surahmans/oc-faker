@@ -15,14 +15,14 @@ layout = "default"
 ==
 <div class="container">
     <div class="page-header">
-        <h2>I am {{ fake.title }} {{ fake.name }}</h2>
+        <h2>I'm {{ fake.title }} {{ fake.name }}</h2>
     </div>
     <address>{{ fake.address }}</address>
-    <p>I am {{ fake.numberBetween(30, 50) }} years old. LOL</p>
+    <p>I'm {{ fake.numberBetween(30, 50) }} years old. LOL</p>
     <p>
-        Here is my photo <img src="{{ fake.imageUrl(200, 200, 'cats' ) }}" alt=""/> <br>
+        Here's my photo <img src="{{ fake.imageUrl(200, 200, 'cats' ) }}" alt=""/> <br>
         whops! Just kidding! :D
-        This is the real one ;) <br> <br>
+        This's the real one ;) <br> <br>
         <img src="{{ fake.imageUrl(200, 200, 'people') }}" alt=""/>
     </p>
     <p>Let me tell you my story :D</p>
@@ -230,7 +230,7 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
 
     // get a random number between 10 and 20,
     // with more chances to be close to 20
-    biasedNumberBetween($min = 10, $max = 20, $function = 'sqrt') placeholder type pictures
+    biasedNumberBetween($min = 10, $max = 20, $function = 'sqrt')
 
 ## License
 
